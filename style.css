@@ -1,0 +1,66 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: none;
+  outline-style: none;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header{
+  text-align: center;
+  margin: 30px;
+}
+
+.flex-container{
+background-color:#e7eaf2;
+margin: 0 10em;
+padding-top: 1.5em;
+min-height: 80vh;
+}
+
+h1 {
+  margin: 0 auto;
+  
+}
+
+button {
+  border-radius: 50px;
+  width: 100px;
+  margin: 1em;
+  background-color: white;
+  border: black solid;
+} 
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 765px) {
+
+.flex-container {
+  margin: 0 2em;
+}
+
+.card-container{
+  margin: 0 1em ;
+}
+
+
+}
